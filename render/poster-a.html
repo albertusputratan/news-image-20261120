@@ -72,12 +72,12 @@ html, body {
   flex: 1;
   min-height: 0;
   display: grid;
-  gap: 4px;
+  gap: 3px;
   padding: 5px 8px 4px;
 }
-.variant-a .wrap { grid-template-rows: auto 236px 292px minmax(0, 1fr) auto; }
-.variant-b .wrap { grid-template-rows: auto 56px 204px 268px minmax(0, 1fr) auto; }
-.variant-c .wrap { grid-template-rows: auto 268px 250px minmax(0, 1fr) auto; }
+.variant-a .wrap { grid-template-rows: auto 206px 300px minmax(0, 1fr) auto; }
+.variant-b .wrap { grid-template-rows: auto 52px 196px 274px minmax(0, 1fr) auto; }
+.variant-c .wrap { grid-template-rows: auto 232px 274px minmax(0, 1fr) auto; }
 .topbar {
   display: flex;
   justify-content: space-between;
@@ -171,11 +171,12 @@ h1 {
   flex-direction: column;
   overflow: hidden;
 }
-.art { position: relative; flex: 1 1 auto; min-height: 58px; overflow: hidden; background: #efe6d6; }
+.art { position: relative; flex: none; height: 28px; overflow: hidden; background: #efe6d6; }
+.lead .art { height: 48px; }
+.variant-c .lead .art { height: 76px; }
+.variant-b .lead .art { height: 40px; }
+.variant-b .feature .art { height: 24px; }
 .art svg { width: 100%; height: 100%; display: block; }
-.variant-c .lead .art { min-height: 120px; }
-.variant-b .lead .art { min-height: 52px; }
-.variant-b .feature .art { min-height: 32px; }
 .badge {
   position: absolute;
   z-index: 2;
@@ -213,8 +214,6 @@ h1 {
   letter-spacing: 0.04em;
   color: var(--rc);
   line-height: 1.2;
-  white-space: nowrap;
-  overflow: hidden;
 }
 .lead h2 {
   font-family: "NewsSerif", "Source Serif Pro", serif;
@@ -235,9 +234,13 @@ h1 {
 .lead p, .feature p { font-size: 11.5px; line-height: 1.28; color: #241e18; }
 .feature p { font-size: 11px; line-height: 1.25; }
 .src { font-size: 11px; line-height: 1.2; color: #5c4038; font-style: italic; margin-top: 1px; }
-.bottom { min-height: 0; display: grid; gap: 6px; }
-.variant-a .bottom, .variant-b .bottom { grid-template-columns: 252px minmax(0, 1fr) 228px; }
-.variant-c .bottom { grid-template-columns: 220px minmax(0, 1fr); grid-template-rows: minmax(0, 1fr) auto; }
+.bottom {
+  min-height: 0;
+  display: grid;
+  gap: 4px;
+  grid-template-columns: 136px minmax(0, 1fr) 214px;
+  grid-template-rows: minmax(0, 1fr);
+}
 .panel {
   min-height: 0;
   min-width: 0;
@@ -283,19 +286,15 @@ h1 {
   list-style: none;
   display: grid;
   grid-auto-flow: column;
-  gap: 2px 8px;
-  padding: 3px 6px 4px;
+  gap: 1px 8px;
+  padding: 2px 5px 2px;
   min-height: 0;
 }
-.variant-a .briefs ol, .variant-b .briefs ol {
+.briefs ol {
   grid-template-rows: repeat(10, auto);
   grid-template-columns: 1fr 1fr;
 }
-.variant-c .briefs ol {
-  grid-template-rows: repeat(7, auto);
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.briefs li { font-size: 11px; line-height: 1.22; color: #1a1612; min-width: 0; }
+.briefs li { font-size: 11px; line-height: 1.15; color: #1a1612; min-width: 0; }
 .briefs .num { color: #9d1c2b; font-weight: 700; }
 .briefs .place { font-weight: 700; }
 .briefs .srcb { color: #5c4038; font-style: italic; }
@@ -308,19 +307,18 @@ h1 {
   flex-direction: column;
   overflow: hidden;
 }
-.variant-c .datecheck { grid-column: 1 / -1; }
 .dc-h {
   background: #9d1c2b;
   color: #fff;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
-  letter-spacing: 0.08em;
-  padding: 3px 7px;
+  letter-spacing: 0.06em;
+  padding: 3px 6px;
   line-height: 1.2;
   flex: none;
 }
-.dc-body { padding: 4px 7px 5px; min-height: 0; }
-.dc-kicker { color: #9d1c2b; font-size: 11px; font-weight: 700; letter-spacing: 0.05em; line-height: 1.2; }
+.dc-body { padding: 4px 6px 5px; min-height: 0; }
+.dc-kicker { color: #9d1c2b; font-size: 11px; font-weight: 700; letter-spacing: 0.04em; line-height: 1.2; }
 .dc-when {
   font-family: "NewsSerif", "Source Serif Pro", serif;
   font-weight: 700;
@@ -329,11 +327,9 @@ h1 {
   margin: 1px 0 3px;
 }
 .datecheck ul { list-style: none; }
-.datecheck li { font-size: 11px; line-height: 1.25; padding-left: 10px; position: relative; margin-top: 3px; }
-.datecheck li::before { content: ""; position: absolute; left: 0; top: 4px; width: 6px; height: 6px; background: #9d1c2b; }
-.variant-c .datecheck ul { display: grid; grid-template-columns: 1fr 1fr; gap: 1px 10px; }
-.variant-c .datecheck li { margin-top: 0; }
-.dc-note { font-size: 11px; line-height: 1.25; margin-top: 4px; color: #3a342c; }
+.datecheck li { font-size: 11px; line-height: 1.22; padding-left: 9px; position: relative; margin-top: 3px; }
+.datecheck li::before { content: ""; position: absolute; left: 0; top: 4px; width: 5px; height: 5px; background: #9d1c2b; }
+.dc-note { font-size: 11px; line-height: 1.22; margin-top: 4px; color: #3a342c; }
 footer {
   font-size: 10px;
   line-height: 1.2;
