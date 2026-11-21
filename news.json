@@ -1,0 +1,355 @@
+{
+  "entryVariant": "b",
+  "date": {
+    "display": "Friday 20 November 2026",
+    "iso": "2026-11-20"
+  },
+  "masthead": {
+    "kicker": "THE WORLD IN ONE DAY",
+    "storyCount": 33,
+    "regionCount": 7,
+    "countLine": "33 STORIES · 7 REGIONS · EVERY ONE FROM THIS FRIDAY",
+    "deck": "Russian missiles hit three Kyiv bridges · Cyclone Akvan makes landfall in India · An AI sell-off sinks Asian stocks"
+  },
+  "labels": {
+    "where": "WHERE IT HAPPENED",
+    "also": "ALSO ON FRIDAY 20 NOVEMBER",
+    "pinsNote": "Pins 1–13 are the leads and features. Briefs 14–33 are listed beside the map.",
+    "tz": "FRIDAY 20 NOV · ANY TIME ZONE"
+  },
+  "footer": "Every story happened or was first reported on Friday 20 November 2026 in any time zone.",
+  "regions": [
+    { "id": "europe", "label": "Europe", "color": "#1d4e89" },
+    { "id": "asia", "label": "Asia", "color": "#c24e12" },
+    { "id": "middleeast", "label": "Middle East", "color": "#8e2344" },
+    { "id": "africa", "label": "Africa", "color": "#1d6a45" },
+    { "id": "americas", "label": "Americas", "color": "#5b3d8c" },
+    { "id": "oceania", "label": "Oceania", "color": "#0e6e78" },
+    { "id": "global", "label": "Global", "color": "#3c3832" }
+  ],
+  "kpis": [
+    { "value": "3", "label": "Kyiv bridges hit over the Dnipro", "accent": "#9d1c2b" },
+    { "value": "300,000+", "label": "People moved to shelters in India", "accent": "#1d4e89" },
+    { "value": "−6.2%", "label": "Taiwan’s index on Friday", "accent": "#9d1c2b" },
+    { "value": "118", "label": "Phillips, runs against India", "accent": "#0e6e78" },
+    { "value": "Reset", "label": "UK–EU food and youth deals", "accent": "#1d4e89" },
+    { "value": "2.3%", "label": "Japan consumer prices, October", "accent": "#c24e12" }
+  ],
+  "dateCheck": {
+    "title": "DATE CHECK",
+    "label": "LEFT OUT ON PURPOSE",
+    "when": "Thursday 19 November — not Friday’s news",
+    "note": "Everything else on this page is from Friday 20 November.",
+    "items": [
+      "The Trump–Xi–Putin trilateral meeting itself, in Shenzhen",
+      "The ICJ ruling that Myanmar committed genocide against the Rohingya",
+      "Anthropic pricing its IPO at $83 and starting Nasdaq trading",
+      "Grand Theft Auto VI’s launch"
+    ]
+  },
+  "leads": [
+    {
+      "n": 1,
+      "region": "europe",
+      "place": "Kyiv",
+      "field": "War",
+      "kicker": "KYIV, UKRAINE · WAR",
+      "headline": "Russian missiles hit three Kyiv bridges",
+      "detail": "Missiles and drones hit three bridges over the Dnipro in an overnight barrage, among the largest of the war. At least eight people were killed and dozens injured across Ukraine. A Lviv railway-station strike killed two, the mayor said.",
+      "source": "Reuters · BBC",
+      "motif": "kyiv",
+      "chip": "3 BRIDGES",
+      "pin": [58.4, 23.2]
+    },
+    {
+      "n": 2,
+      "region": "asia",
+      "place": "Odisha",
+      "field": "Cyclone",
+      "kicker": "ODISHA, INDIA · CYCLONE",
+      "headline": "Cyclone Akvan makes landfall on India’s east coast",
+      "detail": "More than 300,000 people were moved to shelters. No deaths were reported in early accounts.",
+      "source": "IMD · The Hindu",
+      "motif": "cyclone",
+      "chip": "300,000+ SHELTERED",
+      "pin": [73.6, 39.4]
+    },
+    {
+      "n": 3,
+      "region": "asia",
+      "place": "Asia",
+      "field": "Markets",
+      "kicker": "ASIA · MARKETS",
+      "headline": "An AI sell-off sinks Asian stocks",
+      "detail": "Taiwan’s index fell about 6.2%, its worst week since 1991 in reports. Seoul, Tokyo and Hong Kong also closed sharply lower.",
+      "source": "Al Jazeera · Reuters/CNBC",
+      "motif": "markets",
+      "chip": "TAIWAN −6.2%",
+      "pin": [82.8, 37.6]
+    }
+  ],
+  "features": [
+    {
+      "n": 4,
+      "region": "europe",
+      "place": "Brussels",
+      "field": "Diplomacy",
+      "kicker": "BRUSSELS · DIPLOMACY",
+      "headline": "Britain and the EU seal food and youth deals",
+      "detail": "Friday’s summit eased food trade and boosted youth travel. They called it a reset, and left broader talks open.",
+      "source": "Reuters",
+      "motif": "ukeu",
+      "pin": [49.6, 21.6]
+    },
+    {
+      "n": 5,
+      "region": "global",
+      "place": "Antalya",
+      "field": "Climate",
+      "kicker": "ANTALYA · CLIMATE",
+      "headline": "COP31 reaches its last day deadlocked",
+      "detail": "A slimmed-down draft dropped a fossil-fuel phase-out. A $120bn adaptation-finance gap was unresolved.",
+      "source": "UN News · AFP",
+      "motif": "cop",
+      "pin": [59.2, 31.8]
+    },
+    {
+      "n": 6,
+      "region": "europe",
+      "place": "Poland",
+      "field": "Security",
+      "kicker": "POLAND · SECURITY",
+      "headline": "Poland says Russia violated its airspace",
+      "detail": "Overnight objects included a cruise missile. Prime Minister Tusk said the incursion appeared intentional.",
+      "source": "Reuters · Politico",
+      "motif": "poland",
+      "pin": [54.2, 17.8]
+    },
+    {
+      "n": 7,
+      "region": "middleeast",
+      "place": "Iraq",
+      "field": "Security",
+      "kicker": "IRAQ · SECURITY",
+      "headline": "Iraqi forces enter Jurf al-Sakhar",
+      "detail": "Security forces entered the Kataib Hezbollah stronghold under a government order targeting the group.",
+      "source": "AP",
+      "motif": "iraq",
+      "pin": [63.4, 35.6]
+    },
+    {
+      "n": 8,
+      "region": "europe",
+      "place": "Italy",
+      "field": "Labour",
+      "kicker": "ITALY · LABOUR",
+      "headline": "CGIL stages a general strike",
+      "detail": "Italy’s largest union walked out. Thousands of workers and students protested Meloni’s economic policies.",
+      "source": "Reuters",
+      "motif": "strike",
+      "pin": [52.4, 28.4]
+    },
+    {
+      "n": 9,
+      "region": "asia",
+      "place": "Japan",
+      "field": "Economy",
+      "kicker": "JAPAN · ECONOMY",
+      "headline": "Japan’s October prices rise 2.3%",
+      "detail": "The consumer-price reading keeps a Bank of Japan rate-hike debate in view.",
+      "source": "Official data, reported Friday",
+      "motif": "cpi",
+      "pin": [88.6, 30.2]
+    },
+    {
+      "n": 10,
+      "region": "asia",
+      "place": "Seoul",
+      "field": "Politics",
+      "kicker": "SEOUL · POLITICS",
+      "headline": "Ruling party moves to impeach the chief justice",
+      "detail": "The move follows a court clearing ex-president Han Dong-hoo and overturning a conviction.",
+      "source": "Yonhap · Korea Herald",
+      "motif": "gavel",
+      "pin": [84.8, 28.4]
+    },
+    {
+      "n": 11,
+      "region": "africa",
+      "place": "Turkana",
+      "field": "Energy",
+      "kicker": "TURKANA, KENYA · ENERGY",
+      "headline": "Kenya starts drilling its first oil well",
+      "detail": "Work began in Turkana. First crude was described as due around 1 December.",
+      "source": "allAfrica",
+      "motif": "oil",
+      "pin": [58.2, 51.5]
+    },
+    {
+      "n": 12,
+      "region": "americas",
+      "place": "San Salvador",
+      "field": "Politics",
+      "kicker": "SAN SALVADOR · POLITICS",
+      "headline": "Bukele files to run for a third term",
+      "detail": "The president entered the 28 February 2027 race after a 2025 change ended term limits.",
+      "source": "AP · Al Jazeera",
+      "motif": "ballot",
+      "pin": [25.2, 43.6]
+    },
+    {
+      "n": 13,
+      "region": "oceania",
+      "place": "Wellington",
+      "field": "Cricket",
+      "kicker": "WELLINGTON · CRICKET",
+      "headline": "Phillips scores 118 against India",
+      "detail": "Glenn Phillips now has centuries in all three formats against India in a year.",
+      "source": "ICC · AP",
+      "motif": "cricket",
+      "pin": [96.2, 73.4]
+    }
+  ],
+  "briefs": [
+    {
+      "n": 14,
+      "region": "europe",
+      "place": "Lviv",
+      "line": "A railway-station strike kills two, the mayor says.",
+      "source": "BBC/Reuters"
+    },
+    {
+      "n": 15,
+      "region": "europe",
+      "place": "Denmark",
+      "line": "Police say they thwarted a Russian plot to kill rapper Kyivstoner; Copenhagen expels Russia’s defence attaché.",
+      "source": "Reuters"
+    },
+    {
+      "n": 16,
+      "region": "europe",
+      "place": "Estonia",
+      "line": "Parliament moves to close road crossings with Russia for six months after sabotage blamed on the GRU.",
+      "source": "Friday reports"
+    },
+    {
+      "n": 17,
+      "region": "middleeast",
+      "place": "Yemen",
+      "line": "Houthis say 41 killed as Saudi-led strikes hit Hodeidah and other targets; the coalition says the sites were military.",
+      "source": "Reuters"
+    },
+    {
+      "n": 18,
+      "region": "americas",
+      "place": "Washington",
+      "line": "The Treasury sanctions four Iranian oil trustees accused of evading sanctions.",
+      "source": "US Treasury"
+    },
+    {
+      "n": 19,
+      "region": "americas",
+      "place": "Washington",
+      "line": "The White House replaces cyber director Sean Cairncross with Kirsten Davies amid US tech outages.",
+      "source": "NYT, CNBC"
+    },
+    {
+      "n": 20,
+      "region": "americas",
+      "place": "Washington",
+      "line": "Back from China, Trump says at a Friday briefing that the three leaders agreed a nuclear war “cannot be won and must never be fought.”",
+      "source": "Reuters"
+    },
+    {
+      "n": 21,
+      "region": "global",
+      "place": "United Nations",
+      "line": "Two veto-wielding Security Council members reject Costa Rica’s Rebeca Grynspan in an informal poll for UN chief.",
+      "source": "Reuters"
+    },
+    {
+      "n": 22,
+      "region": "americas",
+      "place": "Brasilia",
+      "line": "Imprisoned ex-president Jair Bolsonaro is hospitalised with an intestinal obstruction.",
+      "source": "Reuters"
+    },
+    {
+      "n": 23,
+      "region": "americas",
+      "place": "United States",
+      "line": "Hackers post contact data for thousands of JPMorgan Chase customers.",
+      "source": "Friday reports"
+    },
+    {
+      "n": 24,
+      "region": "global",
+      "place": "Signal",
+      "line": "The app restricts screenshots, saying it wants to block AI agents from reading messages.",
+      "source": "Reuters"
+    },
+    {
+      "n": 25,
+      "region": "americas",
+      "place": "United States",
+      "line": "The SEC is probing Nvidia’s accounting practices, two people briefed on the matter say.",
+      "source": "Reuters"
+    },
+    {
+      "n": 26,
+      "region": "global",
+      "place": "Markets",
+      "line": "Anthropic’s IPO haul rises to $93.5 billion after underwriters exercise the greenshoe.",
+      "source": "Reuters"
+    },
+    {
+      "n": 27,
+      "region": "europe",
+      "place": "France",
+      "line": "The Senate approves a police-shootings law critics call a “licence to kill.”",
+      "source": "Reuters"
+    },
+    {
+      "n": 28,
+      "region": "global",
+      "place": "UNICEF",
+      "line": "Child deaths and injuries in the Ukraine war this year are on track to rival 2022.",
+      "source": "Reuters"
+    },
+    {
+      "n": 29,
+      "region": "middleeast",
+      "place": "Turkey",
+      "line": "Turkey says it is starting offshore hydrocarbon exploration in Pakistan, with drilling planned next year.",
+      "source": "Reuters"
+    },
+    {
+      "n": 30,
+      "region": "africa",
+      "place": "Senegal",
+      "line": "At least four people die after a migrant boat capsizes; around 50 were reported aboard.",
+      "source": "Friday reports"
+    },
+    {
+      "n": 31,
+      "region": "europe",
+      "place": "Russia",
+      "line": "More regions limit fuel sales after Ukrainian drone strikes on refineries.",
+      "source": "Reuters"
+    },
+    {
+      "n": 32,
+      "region": "asia",
+      "place": "Asia",
+      "line": "SoftBank and other Asian tech names lead the regional slide.",
+      "source": "Al Jazeera"
+    },
+    {
+      "n": 33,
+      "region": "americas",
+      "place": "New York",
+      "line": "Wall Street is also under pressure as the AI trade wobbles.",
+      "source": "CNBC"
+    }
+  ]
+}
